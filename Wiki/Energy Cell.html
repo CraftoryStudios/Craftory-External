@@ -83,12 +83,28 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <header></header>
+                                    <h1>Usage</h1>
+                                    <p class="lead">Energy cells can input or output on any side. Any block that is able to provider energy that is placed directly next to it will start transfering energy to the cells storage.</p>
+                                    <p class="lead">Right clicking on the block will open the GUI, this will allow you to see an Energy Bar showing the percentage of how full the cell is. Hovering the cursor over this will provide full details.</p>
+                                    <p class="lead">The block is also able to output energy on any of its six sides, by default this is disabled. By opening the blocks GUI you can click on the output config to change which sides will allow outputing energy on. (For performance
+                                        it is better to only set the sides you will use)&nbsp;<a href="#">More info on Output Config</a></p>
+                                    <h1>Power Grid</h1>
+                                    <p class="lead">Energy Cells can be connected to a power grid via a Power Connector. They have the lowest priority and will only be filled up after all machines in the grid are full. They will be filled up one at a time instead of
+                                        the energy being split equally.<a href="#">&nbsp;Power Grids Info</a></p>
+                                    <h1>Breaking and Placing</h1>
+                                    <p class="lead">Energy cells can be instantly broken by any tool including player hand instantly (this will be changed in the future).</p>
+                                    <p class="lead">When placed the block will not face the direction the player was facing, it will orient its self to always face North (this will be changed in the future).</p>
+                                    <h1>Upgrading</h1>
+                                    <p class="lead">This block can't be upgraded (this will be changed in the future).</p>
+                                    <h1>Redstone Control</h1>
+                                    <p class="lead">A Energy Cell can be disabled by providing a redstone siginal to the block. This will disable energy transfer in and out of the block.</p>
                                     <h1>Recipes</h1>
                                     <h3>Iron Cell</h3>
-                                    <header></header><img src="../assets/img/poweredBlocks/Cells/iron_cell_recipe.png" style="padding-bottom: 15px;">
-                                    <h3>Gold Cell</h3><img src="../assets/img/poweredBlocks/Cells/gold_cell_recipe.png" style="padding-bottom: 15px;">
-                                    <h3>Diamond Cell</h3><img src="../assets/img/poweredBlocks/Cells/diamond_cell_recipe.png" style="padding-bottom: 15px;">
-                                    <h3>Emerald Cell</h3><img src="../assets/img/poweredBlocks/Cells/emerald_cell_recipe.png"></div>
+                                    <header></header><img src="../assets/img/poweredBlocks/Cells/iron_cell_recipe.png" style="padding-bottom: 0px;"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Steel Ingots, Iron Core</span>
+                                    <h3 style="padding-top: 15px;">Gold Cell</h3><img src="../assets/img/poweredBlocks/Cells/gold_cell_recipe.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Steel Ingots, Gold Core</span>
+                                    <h3 style="padding-top: 15px;">Diamond Cell</h3><img src="../assets/img/poweredBlocks/Cells/diamond_cell_recipe.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Steel Ingots, Diamond Core</span>
+                                    <h3 style="padding-top: 15px;">Emerald Cell</h3><img src="../assets/img/poweredBlocks/Cells/emerald_cell_recipe.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Steel Ingots, Emerald Core</span></div>
                             </div>
                         </div>
                     </section>
@@ -104,7 +120,7 @@
                                             <li class="list-group-item"><a href="Getting%20Started.html" data-toggle="collapse">Getting Started</a></li>
                                             <li class="list-group-item"><span>Tier System</span></li>
                                             <li class="list-group-item"><a href="#collapsePoweredBlocks" data-toggle="collapse">Powered Blocks</a>
-                                                <div id="collapsePoweredBlocks" class="panel-collapse">
+                                                <div id="collapsePoweredBlocks" class="panel-collapse collapse">
                                                     <ul class="list-group" style="border-top: 0 none;">
                                                         <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="Energy%20Cell.html">- Energy Cells</a></li>
                                                         <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="Energy%20Cell.html">- Generators</a></li>
@@ -112,8 +128,8 @@
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li class="list-group-item"><a href="#collapseRecipe" data-toggle="collapse">Blocks</a>
-                                                <div id="collapseRecipe">
+                                            <li class="list-group-item"><a href="#collapseBlocks" data-toggle="collapse">Blocks</a>
+                                                <div id="collapseBlocks" class="panel-collapse collapse">
                                                     <ul class="list-group" style="border-top: 0 none;">
                                                         <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><span>- Copper Ore</span></li>
                                                         <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><span>- Crystals</span></li>
