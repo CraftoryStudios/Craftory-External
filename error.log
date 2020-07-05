@@ -525,6 +525,7 @@ error: failed to execute prompt script (exit code 1)
 fatal: could not read Username for 'https://github.com': No error
 
 
+<<<<<<< HEAD
 ----------
 
 Sun Jul 05 2020 00:17:11 GMT+0100 (British Summer Time)
@@ -853,3 +854,5 @@ error: failed to execute prompt script (exit code 1)
 fatal: could not read Username for 'https://github.com': No error
 
 
+=======
+>>>>>>> master
