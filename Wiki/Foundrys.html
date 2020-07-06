@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="../assets/css/styles.min.css">
+    <link rel="stylesheet" href="../assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="../assets/css/smoothproducts.css">
 </head>
 
 <body>
@@ -44,7 +45,7 @@
                                     </div>
                                     <div class="post-info"><span>By Brett Saunders</span><span>Updated Version 0.1.0</span></div>
                                     <h1>Overview</h1>
-                                    <p class="lead">WIP</p>
+                                    <p class="lead">Foundries are used to combine two materials together. Currently their only use is the production of steel from Iron Ingots and Coal.<br></p>
                                     <h1>Tiers</h1>
                                     <div class="table-responsive" style="padding-bottom: 10px;">
                                         <table class="table">
@@ -86,27 +87,32 @@
                                     </div>
                                     <header></header>
                                     <h1>Usage</h1>
-                                    <p class="lead">WIP</p>
-                                    <h1>Power Grid</h1>
-                                    <p class="lead">Wip</p>
-                                    <h1>Breaking and Placing</h1>
-                                    <p class="lead">WIP</p>
-                                    <h1>Upgrading</h1>
-                                    <p class="lead">This block can't be upgraded (this will be changed in the future).</p>
-                                    <h1>Redstone Control</h1>
-                                    <p class="lead">A Foundry can be disabled by providing a redstone siginal to the block. This will disable energy transfer in and out of the block.</p>
-                                    <h1>Crafting</h1>
-                                    <header></header>
-                                    <h3>Iron Foundry - Non Electric</h3>
-                                    <header></header><img src="../assets/img/tech/iron_foundry.png" style="padding-bottom: 0px;"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Ingots, Furnaces, Coal Block</span>
-                                    <h3
-                                        style="padding-top: 15px;">Iron Electric Foundry</h3><img src="../assets/img/tech/iron_electric_foundry.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Foundry, Steel Ingots, Iron Core</span>
+                                    <p class="lead"></p>
+                                    <p class="lead">Right clicking on the block will open the GUI. To combine materials together, insert them into each input slot on the left-hand side, the product will appear in the right hand output slot once the process is complete.<br></p>
+                                    <p
+                                        class="lead">The Iron Foundry requires fuel to run. Any Minecraft fuel source can be inserted into the bottom slot to be burned as fuel. (The Electric Foundries do not require fuel and consume power instead.)</p>
+                                        <p style="font-size: 20px;">Electric Foundries require power. They can be powered by either linking it to a Power Grid, or placing a Generator or Power Cell with enough power and its output configuration setup to output towards the furnace.<br></p>
+                                        <h1>Power Grid</h1>
+                                        <p class="lead">Electric Foundries can be connected to a power grid with a power connector, as with all machines. Foundries have the same priority as other machines, power on the grid will be evenly distributed to all machines.</p>
+                                        <h1>Breaking and Placing</h1>
+                                        <p style="font-size: 20px;">Foundries can be instantly broken by any tool including player hand instantly (this will be changed in the future).<br></p>
+                                        <p style="font-size: 20px;">When placed the block will not face the direction the player was facing, it will orient its self to always face North (this will be changed in the future).<br></p>
+                                        <h1>Upgrading</h1>
+                                        <p class="lead">This block can't be upgraded (this will be changed in the future).</p>
+                                        <h1>Redstone Control</h1>
+                                        <p class="lead">A Foundry can be disabled by providing a redstone siginal to the block. This will disable energy transfer in and out of the block.</p>
+                                        <h1>Crafting</h1>
+                                        <header></header>
+                                        <h3>Iron Foundry - Non Electric</h3>
+                                        <header></header><img src="../assets/img/tech/iron_foundry.png" style="padding-bottom: 0px;"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Ingots, Furnaces, Coal Block</span>
                                         <h3
-                                            style="padding-top: 15px;">Gold Electric Foundry</h3><img src="../assets/img/tech/gold_electric_foundry.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Foundry, Steel Ingots, Gold Core</span>
+                                            style="padding-top: 15px;">Iron Electric Foundry</h3><img src="../assets/img/tech/iron_electric_foundry.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Foundry, Steel Ingots, Iron Core</span>
                                             <h3
-                                                style="padding-top: 15px;">Diamond Electric Foundry</h3><img src="../assets/img/tech/diamond_electric_foundry.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Foundry, Steel Ingots, Diamond Core</span>
+                                                style="padding-top: 15px;">Gold Electric Foundry</h3><img src="../assets/img/tech/gold_electric_foundry.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Foundry, Steel Ingots, Gold Core</span>
                                                 <h3
-                                                    style="padding-top: 15px;">Emerald Electric Foundry</h3><img src="../assets/img/tech/emerald_electric_foundry.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Foundry, Steel Ingots, Emerald Core</span></div>
+                                                    style="padding-top: 15px;">Diamond Electric Foundry</h3><img src="../assets/img/tech/diamond_electric_foundry.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Foundry, Steel Ingots, Diamond Core</span>
+                                                    <h3
+                                                        style="padding-top: 15px;">Emerald Electric Foundry</h3><img src="../assets/img/tech/emerald_electric_foundry.png"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Foundry, Steel Ingots, Emerald Core</span></div>
                             </div>
                         </div>
                     </section>
@@ -178,11 +184,18 @@
             <p>© 2020 Copyright Craftory Team - Brett Saunders &amp; Matty Jones</p>
         </div>
     </footer>
+    <p class="lead">Energy cells can be instantly broken by any tool including player hand instantly (this will be changed in the future).</p>
+    <p class="lead">When placed the block will not face the direction the player was facing, it will orient its self to always face North (this will be changed in the future).</p>
+    <p class="lead">Energy cells can be instantly broken by any tool including player hand instantly (this will be changed in the future).</p>
+    <p class="lead">When placed the block will not face the direction the player was facing, it will orient its self to always face North (this will be changed in the future).</p>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="../assets/js/smoothproducts.min.js"></script>
+    <script src="../assets/js/theme.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>
