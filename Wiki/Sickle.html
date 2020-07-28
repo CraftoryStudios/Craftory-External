@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Furnaces - Craftory</title>
+    <meta property="og:type" content="website">
+    <meta name="description" content="Wiki Page - Energy Cells in Craftory Minecraft Spigot Plugin">
+    <meta property="og:image" content="../assets/img/GIfs/icon.png">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="/index.html">Craftory</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/Wiki/GettingStarted.html">Wiki</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page blog-post" style="background-color: rgb(246,246,246);">
+        <div class="container">
+            <div class="row">
+                <div class="col-auto col-md-8" style="max-width: 80%;min-width: 80%;">
+                    <section class="clean-block clean-post dark">
+                        <div class="container">
+                            <div class="block-content">
+                                <div class="post-body"><img src="../assets/img/tech/Sickle.png" style="width: 125%;padding-left: 0;margin-left: -12.5%;padding-bottom: 30px;">
+                                    <div class="row" style="padding-bottom: 20px;">
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/tech/sickle_wood.png" style="width: 100%;" alt="Iron Electric Furnace" title="Iron Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/tech/sickle_stone.png" style="width: 100%;" alt="Gold Electric Furnace" title="Gold Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/tech/sickle_iron.png" style="width: 100%;" title="Diamond Electric Furnace" alt="Diamond Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/tech/sickle_gold.png" style="width: 100%;" alt="Emerald Electric Furnace" title="Emerald Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/tech/sickle_steel.png" style="width: 100%;" alt="Emerald Electric Furnace" title="Emerald Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/tech/sickle_copper.png" style="width: 100%;" alt="Emerald Electric Furnace" title="Emerald Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/tech/sickle_diamond.png" style="width: 100%;" alt="Emerald Electric Furnace" title="Emerald Electric Furnace"></div>
+                                    </div>
+                                    <div class="post-info"><span>By Brett Saunders</span><span>Updated Version 0.2.0</span></div>
+                                    <h1>Overview</h1>
+                                    <p class="lead">This tool can be used to destory large areas of annoy Tall Grass, or harvest crops, plants and flowers.</p>
+                                    <p class="lead">Left click will use the tool and break plants on the same level in a radius based on the tools level.</p>
+                                    <h1>Tiers</h1>
+                                    <div class="table-responsive" style="padding-bottom: 10px;">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th class="table-active text-center">Tier</th>
+                                                    <th class="table-active text-center">Durability</th>
+                                                    <th class="table-active text-center">Attack Speed</th>
+                                                    <th class="table-active text-center">Attack Damage</th>
+                                                    <th class="table-active text-center">Harvest Radius</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="table-primary text-center" style="font-style: normal;">Wood</td>
+                                                    <td class="text-center">59</td>
+                                                    <td class="text-center">1.4</td>
+                                                    <td class="text-center">3.5 Hearts</td>
+                                                    <td class="text-center">2 Blocks</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-primary text-center">Stone</td>
+                                                    <td class="text-center">131</td>
+                                                    <td class="text-center">1.4<br></td>
+                                                    <td class="text-center">4.5 Hearts</td>
+                                                    <td class="text-center">4 Blocks</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-primary text-center">Copper</td>
+                                                    <td class="text-center">200</td>
+                                                    <td class="text-center">1.4</td>
+                                                    <td class="text-center">4.5 Hearts</td>
+                                                    <td class="text-center">6 Blocks</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-primary text-center">Iron</td>
+                                                    <td class="text-center">250</td>
+                                                    <td class="text-center">1.4</td>
+                                                    <td class="text-center">5.5 Hearts</td>
+                                                    <td class="text-center">6 Blocks</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-primary text-center">Steel</td>
+                                                    <td class="text-center">320</td>
+                                                    <td class="text-center">1.4</td>
+                                                    <td class="text-center">6 Hearts</td>
+                                                    <td class="text-center">8 Blocks</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-primary text-center">Gold</td>
+                                                    <td class="text-center">32</td>
+                                                    <td class="text-center">1.4</td>
+                                                    <td class="text-center">3.5 Hearts</td>
+                                                    <td class="text-center">12 Blocks</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-primary text-center">Diamond</td>
+                                                    <td class="text-center">1561</td>
+                                                    <td class="text-center">1.4</td>
+                                                    <td class="text-center">6.5 Hearts</td>
+                                                    <td class="text-center">10 Blocks</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <header></header>
+                                    <h1>Usage</h1>
+                                    <p style="font-size: 20px;">Left Click a plant, flower, crow or tall grass to break. It will break all plants on the same y level in a radius around.</p>
+                                    <p class="lead"></p>
+                                    <h1>Crafting</h1>
+                                    <h3>Wooden Sickle</h3>
+                                    <header></header><map name="image-map-wood">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Stick" title="Stick" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Oak Planks" title="Oak Planks" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Oak Planks" title="Oak Planks" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Oak Planks" title="Oak Planks" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Wooden Sickle" title="Wooden Sickle" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/sickle_wood.png" style="padding-bottom: 0px;" usemap="#image-map-wood"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Oak Planks, Stick</span>
+                                    <h3
+                                        style="padding-top: 15px;"><map name="image-map-stone">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Stick" title="Stick" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Stone" title="Stone" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Stone" title="Stone" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Stone" title="Stone" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Stone Sickle" title="Stone Sickle" href="" coords="372,105,446,177" shape="rect"> 
+</map>Stone Sickle</h3><img src="../assets/img/sickle_stone.png" usemap="#image-map-stone"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Stone, Stick</span>
+                                        <h3
+                                            style="padding-top: 15px;">Iron Sickle</h3><map name="image-map-iron">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Stick" title="Stick" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Iron" title="Iron" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Iron" title="Iron" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Iron" title="Iron" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Iron Sickle" title="Iron Sickle" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/tech/sickle_ironpng.png" usemap="#image-map-iron"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Ingot, Stick</span>
+                                            <h3
+                                                style="padding-top: 15px;">Gold Sickle</h3><map name="image-map-gold">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Stick" title="Stick" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Gold" title="Gold" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Gold" title="Gold" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Gold" title="Gold" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Gold Sickle" title="Gold Sickle" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/sickle_gold.png" usemap="#image-map-gold"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Gold Ingots, Stick</span>
+                                                <h3
+                                                    style="padding-top: 15px;">Steel Sickle</h3><map name="image-map-Steel">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Stick" title="Stick" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Steel" title="Steel" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Steel" title="Steel" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Steel" title="Steel" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Steel Sickle" title="Steel Sickle" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/sickle_steel.png" usemap="#image-map-Steel"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Steel Ingots, Stick</span>
+                                                    <h3
+                                                        style="padding-top: 15px;">Copper Sickle (Issue)</h3><map name="image-map-emerald">
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="Diamond" title="Diamond" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Diamond" title="Diamond" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="Emerald Core" title="Emerald Core" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Diamond" title="Diamond" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Diamond" title="Diamond" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Emerald Macerator" title="Emerald Macerator" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/tech/sickle_copper.png" usemap="#image-map-emerald"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Copper Ingots</span>
+                                                        <h3
+                                                            style="padding-top: 15px;">Diamond Sickle</h3><map name="image-map-Diamond">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Stick" title="Stick" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Diamond" title="Diamond" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Diamond" title="Diamond" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Diamond" title="Diamond" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Diamond Sickle" title="Diamond Sickle" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/sickle_diamond.png" usemap="#image-map-Diamond"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Diamond, Stick</span>
+                                                            <header></header>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4" style="width: 367px;min-width: 20%;max-width: 20%;">
+                    <section class="clean-block clean-post dark">
+                        <div class="container" style="padding: 0;">
+                            <div class="block-content" style="padding-right: 5;padding-left: 5;">
+                                <div class="post-body" style="padding: 0;padding-top: 10px;">
+                                    <div class="post-info">
+                                        <h3 id="wikiHeading" style="padding: 0px;padding-left: 4;margin-left: 8; text-align: center;">Contents</h3>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a href="/Wiki/GettingStarted.html">Getting Started</a></li>
+                                            <li class="list-group-item"><a href="/Wiki/Power%20Grid.html">Power Grid</a></li>
+                                            <li class="list-group-item"></li>
+                                            <li class="list-group-item"><a href="/Wiki/Energy%20Cell.html">Energy Cells</a></li>
+                                            <li class="list-group-item"><a href="#collapsePoweredBlocks" data-toggle="collapse">Machines</a>
+                                                <div id="collapsePoweredBlocks" class="panel-collapse">
+                                                    <ul class="list-group" style="border-top: 0 none;">
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/Wiki/Furnaces.html">- Furnaces</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/Wiki/Foundrys.html">- Foundrys</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/wiki/Macerator.html">- Macerator</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/wiki/BlockBreaker.html">- Block Breaker</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/wiki/BlockPlacer.html">- Block Placer</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/wiki/Magnetiser.html">- Magnetiser</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item"><a href="#collapseGenerators" data-toggle="collapse">Generators</a>
+                                                <div id="collapseGenerators" class="panel-collapse">
+                                                    <ul class="list-group" style="border-top: 0 none;">
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/Wiki/SolidFuelGenerator.html">- Solid Fuel Generator</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/wiki/WindMill.html">- Wind Mill</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/wiki/WaterWheel.html">- Water Wheel</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="">- Solar Panels</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item"></li>
+                                            <li class="list-group-item"><a href="#collapseBlocks" data-toggle="collapse">Ores</a>
+                                                <div id="collapseBlocks" class="panel-collapse collapse">
+                                                    <ul class="list-group" style="border-top: 0 none;">
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/Wiki/Copper%20Ore.html">- Copper Ore</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/Wiki/Crystals.html">- Crystal</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item"><a href="#collapseTools" data-toggle="collapse">Tools</a>
+                                                <div id="collapseTools" class="panel-collapse collapse">
+                                                    <ul class="list-group" style="border-top: 0 none;">
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/wiki/Sickle.html">- Sickle</a></li>
+                                                        <li class="list-group-item" style="padding-top: 6px;padding-bottom: 6px; border: none;"><a href="/Wiki/Foundrys.html">- Engineers Hammer</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item"><a href="/Wiki/CraftingComponents.html">Crafting Components</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2020 Copyright Craftory Team - Brett Saunders &amp; Matty Jones</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+</body>
+
+</html>
