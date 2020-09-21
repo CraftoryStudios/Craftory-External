@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Magnetiser - Craftory</title>
+    <title>Power Hammers - Craftory</title>
     <meta property="og:type" content="website">
     <meta property="og:image" content="../assets/img/GIfs/icon.png">
-    <meta name="description" content="Wiki Page - Magnetiser  in Craftory Minecraft Spigot Plugin">
+    <meta name="description" content="Wiki Page - Power Hammers in Craftory Minecraft Spigot Plugin">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -38,106 +38,178 @@
                     <section class="clean-block clean-post dark">
                         <div class="container">
                             <div class="block-content">
-                                <div class="post-body"><img src="../assets/img/Magnatiser.png" style="width: 125%;padding-left: 0;margin-left: -12.5%;padding-bottom: 30px;">
-                                    <div class="row text-center" style="padding-bottom: 20px;max-height: 250px;width: 100%;position: relative;overflow: hidden;min-height: 150px;">
-                                        <div class="col text-center" style="height: 100%;position: absolute;padding-right: auto;"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="h-100" src="../assets/img/GIfs/Magnetiser.gif" style="height: auto;" alt="Iron Electric Furnace" title="Iron Electric Furnace"></div>
+                                <div class="post-body"><img src="../assets/img/tech/power_hammer.png" style="width: 125%;padding-left: 0;margin-left: -12.5%;padding-bottom: 30px;">
+                                    <div class="row" style="padding-bottom: 20px;height: 132px;width: 697px;">
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/iron_power_hammer.png" style="width: 100%;" alt="Iron Electric Furnace" title="Iron Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/golden_power_hammer.png" style="width: 100%;" alt="Gold Electric Furnace" title="Gold Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/diamond_power_hammer.png" style="width: 100%;" title="Diamond Electric Furnace" alt="Diamond Electric Furnace"></div>
+                                        <div class="col"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" src="../assets/img/netherite_power_hammer.png" style="width: 100%;" alt="Emerald Electric Furnace" title="Emerald Electric Furnace"></div>
                                     </div>
-                                    <div class="row text-center" style="padding-bottom: 20px;max-height: 250px;width: 100%;position: relative;overflow: hidden;min-height: 150px;">
-                                        <div class="col text-center" style="height: 100%;position: absolute;padding-right: auto;"><img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="h-100" src="../assets/img/GIfs/MagnatisationTable.gif" style="height: auto;" alt="Iron Electric Furnace" title="Iron Electric Furnace"></div>
-                                    </div>
-                                    <div class="post-info"><span>By Brett Saunders</span><span>Updated Version 0.2.0</span></div>
+                                    <div class="post-info"><span>By Matthew Jones</span><span>Updated Version 0.2.5</span></div>
                                     <h1>Overview</h1>
-                                    <p class="lead">One of the core crafting components is Magnetised Iron, a magnatiser can be used to produce it.</p>
-                                    <p class="lead">The Magnetising Table is a manual version that requires no Energy. A Engineers Hammer is used to hit it and progress the crafting.</p>
+                                    <p class="lead">This powered tool is used to quickly break a 3x3 area of stone like blocks. Each Power Hammer is slower than their pick-axe equivalent as they break 9 blocks at once. They do not break as they use energy rather than
+                                        durability.</p>
                                     <h1>Tiers</h1>
                                     <div class="table-responsive" style="padding-bottom: 10px;">
                                         <table class="table">
                                             <thead>
                                                 <tr>
                                                     <th class="table-active text-center">Tier</th>
-                                                    <th class="table-active text-center">Storage Size</th>
-                                                    <th class="table-active text-center">Speed</th>
-                                                    <th class="table-active text-center">Energy Usage</th>
-                                                    <th class="table-active text-center">Max Recieve</th>
+                                                    <th class="table-active text-center">Capacity</th>
+                                                    <th class="table-active text-center">Mining Speed (Relative to hand)</th>
+                                                    <th class="table-active text-center">Attack Damage</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
+                                                <tr></tr>
                                                 <tr>
-                                                    <td class="table-primary text-center" style="font-style: normal;">Magnetiser</td>
-                                                    <td class="text-center">40,000 Re</td>
-                                                    <td class="text-center">Redstone Based</td>
-                                                    <td class="text-center">1000 Re per Operation</td>
-                                                    <td class="text-center">10,000 Re/t</td>
+                                                    <td class="table-primary text-center">Iron</td>
+                                                    <td class="text-center">30000 Re</td>
+                                                    <td class="text-center">1.8x</td>
+                                                    <td class="text-center">5 Hearts</td>
+                                                </tr>
+                                                <tr></tr>
+                                                <tr>
+                                                    <td class="table-primary text-center">Gold</td>
+                                                    <td class="text-center">10000 Re</td>
+                                                    <td class="text-center">3.6x</td>
+                                                    <td class="text-center">4 Hearts</td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="table-primary text-center" style="font-style: normal;">Magnetisation Table</td>
-                                                    <td class="text-center">N/A</td>
-                                                    <td class="text-center">Click Speed</td>
-                                                    <td class="text-center">N/A</td>
-                                                    <td class="text-center">N/A</td>
+                                                    <td class="table-primary text-center">Diamond</td>
+                                                    <td class="text-center">100000 Re</td>
+                                                    <td class="text-center">2.4x</td>
+                                                    <td class="text-center">6 Hearts</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-primary text-center">Netherite</td>
+                                                    <td class="text-center">200000 Re</td>
+                                                    <td class="text-center">2.7x</td>
+                                                    <td class="text-center">7 Hearts</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                     <header></header>
-                                    <h1>Usage - Magnatisation Table</h1>
-                                    <p style="font-size: 20px;">The Magnetisation Table is an unpowered machine with no GUI. Once placed, hold an iron ingot and right click the top of the table to place the iron on the table.</p>
-                                    <p style="font-size: 20px;">Craft an Engineers Hammer, you can use this to left click the top of the table to hit it. This will create particles showing you progress. After a few hits the item will become magnetised which can be seen by particles
-                                        and item change.</p>
-                                    <h1>Usage - Magnatiser</h1>
-                                    <p style="font-size: 20px;">The magnetise unlike the table requires power, once placed, right click it to open the GUI and put Iron Ingots in it to magnetise them.</p>
+                                    <h1>Usage</h1>
+                                    <p style="font-size: 20px;">The Power Hammer is used the same as pickaxes, it is most effective on blocks like stone and ore.</p>
+                                    <p style="font-size: 20px;">The Power Hammer, like excavators will break a 3x3 area around the broken block (perpendicular to the direction it is hit from). Only blocks the Power Hammer can break will be broken by this feature. The Power Hammer
+                                        wont work on blocks that the Excavator is used for (Dirt, Clay, Sand...)</p>
+                                    <p style="font-size: 20px;">Before use the Power Hammer must be charged. To charge place it in the charging slot in any cell, the higher tier cells charge faster.</p>
+                                    <p style="font-size: 20px;">100 energy is consumed for each block broken, mining a 3x3 square will consume 900 energy.</p>
                                     <p class="lead"></p>
-                                    <h1>Power Grid</h1>
-                                    <p class="lead">Magnatiser can be connected to a power grid with a power connector, as with all machines.&nbsp;<br></p>
-                                    <h1>Breaking and Placing</h1>
-                                    <p class="lead">Magnatiser &amp; Table can be instantly broken by any tool including player hand instantly (this will be changed in the future).<br></p>
                                     <h1>Crafting</h1>
-                                    <h3>Magnatiser (Electric)</h3><map name="image-map-iron">
-    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="102,65,148,110" shape="rect">
+                                    <h3>Iron Power Hammer</h3>
+                                    <header></header><map name="image-map-iron">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
     
-    <area target="" alt="Diamond" title="Diamond" href="" coords="100,119,149,164" shape="rect">
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="100,119,149,164" shape="rect">
     
-    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="102,171,148,217" shape="rect">
-    
-    <area target="" alt="Diamond" title="Diamond" href="" coords="155,65,204,113" shape="rect">
-    
-    <area target="" alt="Iron Core" title="Iron Core" href="" coords="156,118,202,166" shape="rect">
-    
-    <area target="" alt="Diamond" title="Diamond" href="" coords="156,173,204,219" shape="rect">
-    
-    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="210,64,256,110" shape="rect">
-    
-    <area target="" alt="Diamond" title="Diamond" href="" coords="211,117,256,166" shape="rect">
-    
-    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="211,174,257,217" shape="rect">
-    
-    <area target="" alt="Iron Macerator" title="Iron Macerator" href="" coords="372,105,446,177" shape="rect"> 
-</map><img src="../assets/img/tech/magnetiser.png" style="padding-bottom: 0px;" usemap="#image-map-magnatiser"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span>
-                                    <span
-                                        style="padding-bottom: 0;">Steel Ingots, Iron Core, Copper Ingots</span>
-                                        <h3 style="margin-top: 20px;">Magnatisation Table</h3><map name="image-map-iron">
-    <area target="" alt="Iron Block" title="Iron Block" href="" coords="102,65,148,110" shape="rect">
-    
-    <area target="" alt="Oak Planks" title="Oak Planks" href="" coords="100,119,149,164" shape="rect">
-    
-    <area target="" alt="Oak Planks" title="Oak Planks" href="" coords="102,171,148,217" shape="rect">
+    <area target="" alt="Magnetised Iron" title="Magnetised Iron" href="" coords="102,171,148,217" shape="rect">
     
     <area target="" alt="Iron Block" title="Iron Block" href="" coords="155,65,204,113" shape="rect">
     
+    <area target="" alt="Iron Pickaxe" title="Iron Pickaxe" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Iron Cell" title="Iron Cell" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="Magnetised Iron" title="Magnetised Iron" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Iron Power Hammer" title="Iron Power Hammer" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/iron_power_hammer-1.png" style="padding-bottom: 0px;" usemap="#image-map-iron"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Iron Block, Steel Ingot, Iron Pickaxe, Magnetised Iron, Iron Cell</span>
+                                    <h3
+                                        style="padding-top: 15px;"><map name="image-map-stone">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Stick" title="Stick" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Stone" title="Stone" href="" coords="155,65,204,113" shape="rect">
+    
     <area target="" alt="AIR" title="AIR" href="" coords="156,118,202,166" shape="rect">
     
-    <area target="" alt="AIR" title="AIR" href="" coords="156,173,204,219" shape="rect">
+    <area target="" alt="Stone" title="Stone" href="" coords="156,173,204,219" shape="rect">
     
-    <area target="" alt="Iron Block" title="Iron Block" href="" coords="210,64,256,110" shape="rect">
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
     
-    <area target="" alt="Oak Planks" title="Oak Planks" href="" coords="211,117,256,166" shape="rect">
+    <area target="" alt="Stone" title="Stone" href="" coords="211,117,256,166" shape="rect">
     
-    <area target="" alt="Oak Planks" title="Oak Planks" href="" coords="211,174,257,217" shape="rect">
+    <area target="" alt="AIR" title="AIR" href="" coords="211,174,257,217" shape="rect">
     
-    <area target="" alt="Magnatisation Table" title="Magnatisation Table" href="" coords="372,105,446,177" shape="rect"> 
-</map><img src="../assets/img/tech/magnetising_table.png" style="padding-bottom: 0px;" usemap="#image-map-magnatiser"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span>
+    <area target="" alt="Stone Sickle" title="Stone Sickle" href="" coords="372,105,446,177" shape="rect"> 
+</map>Golden Power Hammer&nbsp;</h3><map name="image-map-gold">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Magnetised Iron" title="Magnetised Iron" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Gold Block" title="Gold Block" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="Golden Pickaxe" title="Golden Pickaxe" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Gold Cell" title="Gold Cell" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="Magnetised Iron" title="Magnetised Iron" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Golden Power Hammer" title="Golden Power Hammer" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/golden_power_hammer-1.png" usemap="#image-map-gold"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span>
                                         <span
-                                            style="padding-bottom: 0;">Oak Planks, Iron Blocks</span><span style="padding-bottom: 0;">&nbsp;(Sorry for Texture Pack Use)</span></div>
+                                            style="padding-bottom: 0;">Gold Block, Steel Ingot, Golden Pickaxe, Magnetised Iron, Gold Cell<br><br></span>
+                                            <h3 style="padding-top: 15px;">Diamond Power Hammer</h3><map name="image-map-diamond">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Magnetised Iron" title="Magnetised Iron" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Diamond Block" title="Diamond Block" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="Diamond Pickaxe" title="Diamond Pickaxe" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Diamond Cell" title="Diamond Cell" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="Magnetised Iron" title="Magnetised Iron" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Diamond Power Hammer" title="Diamond Power Hammer" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/diamond_power_hammer-1.png" usemap="#image-map-diamond"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Diamond Block, Steel Ingot, Diamond Pickaxe, Magnetised Iron, Diamond-Cell<br><br></span>
+                                            <h3
+                                                style="padding-top: 15px;">Netherite Power Hammer</h3><map name="image-map-netherite">
+    <area target="" alt="AIR" title="AIR" href="" coords="102,65,148,110" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="100,119,149,164" shape="rect">
+    
+    <area target="" alt="Magnetised Iron" title="Magnetised Iron" href="" coords="102,171,148,217" shape="rect">
+    
+    <area target="" alt="Netherite Block" title="Netherite Block" href="" coords="155,65,204,113" shape="rect">
+    
+    <area target="" alt="Netherite Pickaxe" title="Netherite Pickaxe" href="" coords="156,118,202,166" shape="rect">
+    
+    <area target="" alt="Emerald Cell" title="Emerald Cell" href="" coords="156,173,204,219" shape="rect">
+    
+    <area target="" alt="AIR" title="AIR" href="" coords="210,64,256,110" shape="rect">
+    
+    <area target="" alt="Steel Ingot" title="Steel Ingot" href="" coords="211,117,256,166" shape="rect">
+    
+    <area target="" alt="Magnetised Iron" title="Magnetised Iron" href="" coords="211,174,257,217" shape="rect">
+    
+    <area target="" alt="Netherite Power Hammer" title="Netherite Power Hammer" href="" coords="372,105,446,177" shape="rect"> 
+</map><img src="../assets/img/netherite_power_hammer-1.png" usemap="#image-map-netherite"><span style="padding-bottom: 0;"><br><strong>Ingredients:&nbsp;</strong></span><span style="padding-bottom: 0;">Netherite Block, Steel Ingot, Netherite Pickaxe, Magnetised Iron, Emerald-Cell<br><br><br></span>
+                                                <header></header>
+                                </div>
                             </div>
                         </div>
                     </section>
