@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/dist/craftory-tech.css">
     <script src="/dist/craftory-tech.js"></script>
 
-    <title>Controller - Craftory Studios</title>
+    <title>SolarPanel - Craftory Studios</title>
 </head>
 <body data-project="craftory-tech">
 
@@ -106,9 +106,9 @@
         <div class="page-title">
             <h1 class="h2">
                 
-                    <img src="/assets/refined-storage/renders/controller.png" alt="Controller" class="wiki-icon">
+                    <img src="/assets/craftory-tech/renders/SolarPanel.png" alt="SolarPanel" class="wiki-icon">
                 
-                Controller
+                SolarPanel
                 
                     <a style="font-size: 15px" href="/craftory-tech/releases/1-12"
                        class="badge badge-primary">Since: 1.12</a>
@@ -120,14 +120,93 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/craftory-tech">Craftory Tech</a></li>
                 <li class="breadcrumb-item"><a href="/craftory-tech/wiki">Wiki</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Controller</li>
+                <li class="breadcrumb-item active" aria-current="page">SolarPanel</li>
             </ol>
         </nav>
 
         <div class="row">
             <div class="col-md-8">
                 <article>
-                    <p>Controls stuff</p>
+                    <h2 class="h4" id="overview">Overview</h2>
+
+<p>Solar Panels produce energy from sunlight. To work they need the sun to<br />
+be up and have direct line of sight to the sky.</p>
+
+<h2 class="h4" id="tiers">Tiers</h2>
+
+<table class="table">
+<thead>
+<tr>
+<th align="left">Tier</th>
+<th align="left">Storage Size</th>
+<th align="left">Fuel</th>
+<th align="left">Output</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Basic Solar Panel</td>
+<td align="left">50,000 Re</td>
+<td align="left">No</td>
+<td align="left">20 Re/t</td>
+</tr>
+
+<tr>
+<td align="left">Solar Panel</td>
+<td align="left">200,000 Re</td>
+<td align="left">No</td>
+<td align="left">80 Re/t</td>
+</tr>
+
+<tr>
+<td align="left">Compacted Solar Panel</td>
+<td align="left">800,000 Re</td>
+<td align="left">No</td>
+<td align="left">320 Re/t</td>
+</tr>
+
+<tr>
+<td align="left">Solar Array</td>
+<td align="left">1,600,000 Re</td>
+<td align="left">No</td>
+<td align="left">640 Re/t</td>
+</tr>
+</tbody>
+</table>
+
+<h2 class="h4" id="usage">Usage</h2>
+
+<p>Once placed right clicking will open the GUI showing the status, output<br />
+configuration and power in the generator. The panel will generate power<br />
+when it is day time and there are no light blocking blocks above it.</p>
+
+<p>Maximum power is generated at noon, with less power being generated<br />
+earlier and later in the day.</p>
+
+<p>Use the output configuration in the GUI to set what faces the generator<br />
+will output power to.</p>
+
+<h2 class="h4" id="power-grid">Power Grid</h2>
+
+<p>This block can be connected to a Power Grid, this will allow it to<br />
+distribute energy across the grid.</p>
+
+<h2 class="h4" id="breaking-and-placing">Breaking and Placing</h2>
+
+<p>Solar Panels can be instantly broken by any tool including player hand<br />
+instantly (this will be changed in the future).</p>
+
+<p>Solar panels place the same as any block.</p>
+
+<h2 class="h4" id="redstone-control">Redstone Control</h2>
+
+<p>Solar Panels can be disabled by providing a redstone siginal to the<br />
+block. This will disable energy transfer in and out of the block.</p>
+
+<h2 class="h4" id="recipes">Recipes</h2>
+
+<p>..</p>
 
                 </article>
             </div>
@@ -160,16 +239,41 @@
                             </div>
                         
                             <div class="sidebar" id="_sidebar_Blocks">
-                                <ul>
-<li><a href="/craftory-tech/wiki/controller.html" data-tooltip-icon="/assets/refined-storage/renders/controller.png">Controller</a></li>
-</ul>
+                                <p>** Generators **<br />
+- <a href="/craftory-tech/wiki/solidfuelgenerator.html" data-tooltip-icon="/assets/craftory-tech/renders/SolidFuelGenerator.png">SolidFuelGenerator</a><br />
+- <a href="/craftory-tech/wiki/windmill.html" data-tooltip-icon="/assets/craftory-tech/renders/unknown.png">Windmill</a><br />
+- <a href="/craftory-tech/wiki/waterwheel.html" data-tooltip-icon="/assets/craftory-tech/renders/unknown.png">Waterwheel</a><br />
+- <a href="/craftory-tech/wiki/solarpanel.html" data-tooltip-icon="/assets/craftory-tech/renders/SolarPanel.png">SolarPanel</a></p>
+
+<p>** Energy **<br />
+- <a href="/craftory-tech/wiki/energycell.html" data-tooltip-icon="/assets/craftory-tech/renders/EnergyCell.png">EnergyCell</a></p>
+
+<p>** Manipulator **<br />
+- <a href="/craftory-tech/wiki/blockbreaker.html" data-tooltip-icon="/assets/craftory-tech/renders/BlockBreaker.png">BlockBreaker</a><br />
+- <a href="/craftory-tech/wiki/blockplacer.html" data-tooltip-icon="/assets/craftory-tech/renders/BlockPlacer.png">BlockPlacer</a></p>
+
+<p>** Machines **<br />
+- <a href="/craftory-tech/wiki/electricfurnace.html" data-tooltip-icon="/assets/craftory-tech/renders/ElectricFurnace.png">ElectricFurnace</a><br />
+- <a href="/craftory-tech/wiki/foundry.html" data-tooltip-icon="/assets/craftory-tech/renders/Foundry.png">Foundry</a><br />
+- <a href="/craftory-tech/wiki/macerator.html" data-tooltip-icon="/assets/craftory-tech/renders/Macerator.png">Macerator</a><br />
+- <a href="/craftory-tech/wiki/magnatisationtable.html" data-tooltip-icon="/assets/craftory-tech/renders/MagnatisationTable.png">MagnatisationTable</a><br />
+- <a href="/craftory-tech/wiki/magnatiser.html" data-tooltip-icon="/assets/craftory-tech/renders/Magnatiser.png">Magnatiser</a></p>
+
+<p>** Ores **<br />
+- <a href="/craftory-tech/wiki/copperore.html" data-tooltip-icon="/assets/craftory-tech/renders/CopperOre.png">CopperOre</a></p>
 
                             </div>
                         
                             <div class="sidebar" id="_sidebar_Items">
-                                <ul>
-<li><a href="/craftory-tech/wiki/wrench.html" data-tooltip-icon="/assets/craftory-tech/renders/wrench.png">Wrench</a></li>
-</ul>
+                                <p>** Configuration Tools **<br />
+- <a href="/craftory-tech/wiki/wrench.html" data-tooltip-icon="/assets/craftory-tech/renders/unknown.png">Wrench</a><br />
+- <a href="/craftory-tech/wiki/configurator.html" data-tooltip-icon="/assets/craftory-tech/renders/unknown.png">Configurator</a><br />
+- <a href="/craftory-tech/wiki/engineershammer.html" data-tooltip-icon="/assets/craftory-tech/renders/unknown.png">EngineersHammer</a></p>
+
+<p>** Tools **<br />
+- <a href="/craftory-tech/wiki/sickle.html" data-tooltip-icon="/assets/craftory-tech/renders/unknown.png">Sickle</a><br />
+- <a href="/craftory-tech/wiki/drill.html" data-tooltip-icon="/assets/craftory-tech/renders/unknown.png">Drill</a><br />
+- <a href="/craftory-tech/wiki/hammer.html" data-tooltip-icon="/assets/craftory-tech/renders/unknown.png">Hammer</a></p>
 
                             </div>
                         
